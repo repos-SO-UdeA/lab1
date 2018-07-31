@@ -107,6 +107,19 @@ b. Escriba una función que genere un número aleatorio entre a y b. **Ayuda**: 
 
 c. Realice un programa que invocando la función anteriormente creada, funcione de manera similar al programa analizado en el punto a.
 
+>
+> **Ejercicio resuelto:**
+> Este ejercicio se encuentra resuelto. Para ello descargue y compile el siguiente archivo: [ejercicio4.c](code/ejercicio4.c)
+> 
+> A continuacion se muestran las instrucciones de compilación:
+>
+>  ```gcc -Wall ejercicio4.c -o ejercicio4.out```
+>
+> En lo que respecta a la ejecución:
+>
+> ```./ejercicio4.out```
+>
+
 **P5**. Escriba una función que tome un valor entero y devuelva el número con sus dígitos en reversa. Por ejemplo, dado el numero 7631, la función deberá devolver 1367.
 
 **P6**. Una ecuación cuadrática es aquella que tiene la siguiente forma:
