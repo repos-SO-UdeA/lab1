@@ -241,6 +241,21 @@ b. Invocar en el main la función varias veces de tal manera que la salida sea l
 -0.50 con multiplicidad 2
 ```
 
+>
+> **Ejercicio resuelto:**
+> Las partes a y b de este problema estan en el siguiente codigo: [ejercicio7_ab.c](code/ejercicio7_ab.c)
+> 
+> A continuacion se muestran las instrucciones de compilación:
+>
+>  ```gcc -Wall ejercicio7_ab.c -o ejercicio7_ab.out -lm```
+>
+> **Comentario importante**: Como en el caso del problema 6, La opción de compilacion -lm es necesaria por el uso de funciones como ```pow``` y ```sqrt``` pertenecientes a la libreria ```math.h```. 
+> 
+> En lo que respecta a la ejecución:
+>
+> ```./ejercicio7_ab.out```
+>
+
 c. Realizar un programa que solicite al usuario los valores de los coeficientes y que haciendo uso de la función bachiller despliegue las raíces de estos coeficientes desplegados en pantalla.
 
 **P8**. Escriba un programa que simule el lanzamiento de una moneda. En cada línea de entrada aparece el número de lanzamientos de la moneda. En la línea de salida correspondiente debe aparecer una secuencia con el resultado de cada lanzamiento ('C' cuando fue cara y 'S' cuando fue sello) junto con el número de veces que aparece cada lado. El programa deberá usar una función que se encargue de simular el lanzamiento de la moneda una sola vez, que no tome argumentos y que retorne 0 para la cara ('C') ó 1 para el sello ('T').
