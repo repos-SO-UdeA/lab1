@@ -167,6 +167,21 @@ int main() {
 
 ```
 
+>
+> **Ejercicio resuelto:**
+> Las partes a y b de este problema con el discriminante en el siguiente codigo: [ejercicio6_ab.c](code/ejercicio6_ab.c)
+> 
+> A continuacion se muestran las instrucciones de compilación:
+>
+>  ```gcc -Wall ejercicio6_ab.c -o ejercicio6_ab.out -lm```
+>
+> **Comentario importante**: La opción de compilacion -lm es importante por que en el codigo se usa la funcion ```pow``` perteneciente a la libreria ```math.h```. Esta ultima se incluyo al principio (Ver la linea ```#include <math.h>```). Si no se compila con la opcion -lm el resultado será un error.
+> 
+En lo que respecta a la ejecución:
+>
+> ```./ejercicio6_ab.out```
+>
+
 c. Realizar un programa que solicite por teclado los valores de los coeficientes y de acuerdo a estos, despliegue si la ecuación cuadrática tiene raíces reales y distintas, reales e iguales o complejas conjugadas. Para tal fin se debe hacer uso de la función discriminante previamente creada.
 
 **P7**. Para obtener las raíces de una ecuación de segundo grado utilizando la fórmula:
