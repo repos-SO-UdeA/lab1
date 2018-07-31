@@ -3,6 +3,20 @@
 > **Objetivos**
 > * Reforzar los conceptos discutidos en el laboratorio.
 > * Ir ganando experiencia en la resolución de problemas empleando lenguaje C. 
+> * Comprender el uso del compilador gcc.
+
+## Lecturas opcionales previas
+
+Se recomienda antes de empezar revisar los siguientes enlaces:
+1. **Teoria sobre la introduccion al lenguaje C**: La cual puede ser accedida en el siguiente [enlace](https://github.com/repos-SO-UdeA/laboratorios/blob/master/lab1/teoria/parte1/intro_C_basico.ipynb).
+2. **Repasar entrada y salida**: En la seccion **Repasando el uso del compilador compilador** del siguiente [enlace](https://github.com/repos-SO-UdeA/lab0) se encuentran diferentes ejemplos con entrada y salida que le pueden ser de utilida.
+
+**Nota importante**: Algunos ejercicios de estos se resolvieron con propositos de repaso.
+
+## Actividad de laboratorio
+Desarrollar por parejas los siguientes ejercicios: 
+* **Estructuras de programación**: P1, P2, P3.
+* **Funciones**: P1, P2, P3, P5, P8, P9 y P10.
 
 ## 1. Ejercicios de repaso
 
